@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:project_flutter/column_widget.dart';
 import 'package:project_flutter/container_widget.dart';
+import 'package:project_flutter/gridview/grid_basic.dart';
+import 'package:project_flutter/gridview/grid_build.dart';
+import 'package:project_flutter/gridview/grid_count.dart';
+import 'package:project_flutter/gridview/grid_fullscreen.dart';
+import 'package:project_flutter/gridview/latihan_grid.dart';
 import 'package:project_flutter/latihan1_widget.dart';
 import 'package:project_flutter/latihan2_widget.dart';
 import 'package:project_flutter/latihan3_widget.dart';
@@ -31,7 +36,7 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.bold, 
           ),),
         ),
-       body:latihanlist(),
+       body:latiahngrid(),
       ),
     );
   }
